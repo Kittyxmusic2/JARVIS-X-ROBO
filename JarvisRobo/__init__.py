@@ -46,9 +46,8 @@ if ENV:
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     START_IMG = os.environ.get("START_IMG", "")
-    HELP_IMG = os.environ.get("HELP_IMG", "https://telegra.ph/file/61296490da95c55a1d5ee.jpg")
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Dora_Hub")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Grandxmasti")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
@@ -101,7 +100,6 @@ else:
     MONGO_DB_URI = Config.MONGO_DB_URI
     NO_LOAD = Config.NO_LOAD
     START_IMG = Config.START_IMG
-    HELP_IMG = Config.HELP_IMG
     STRICT_GBAN = Config.STRICT_GBAN
     SUPPORT_CHAT = Config.SUPPORT_CHAT
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
